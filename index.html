@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Fractech</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">Our Profile</a></li>
+                <li><a href="#message">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="home">
+
+        <div class="home-container">
+
+            <!-- TEXT -->
+            <div class="home-text">
+                <h1>Hi, <span id="username">Guest</span></h1>
+                <p>Selamat datang di situs web perusahaan kami</p>
+                <p>Kami menciptakan solusi digital modern untuk bisnis Anda</p>
+            </div>
+
+            <!-- IMAGE -->
+            <div class="home-image">
+                <img src="https://images.pexels.com/photos/4252666/pexels-photo-4252666.jpeg" alt="Hero Image">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROFILE -->
+    <section id="profile" class="profile-section">
+
+        <h2 class="profile-title">Fractech Company</h2>
+
+        <div class="profile-wrapper">
+
+            <!-- LEFT CONTENT -->
+            <div class="profile-left">
+                <p class="since">Sekilas Tentang Kami</p>
+
+                <p>
+                    Fractech adalah perusahaan teknologi kreatif
+                    yang berfokus pada pengembangan solusi digital modern.
+                    Nilai-nilai kami menjadi dasar dari setiap proyek yang kami kerjakan.
+                </p>
+
+                <p>
+                    Kami membantu bisnis berkembang melalui pendekatan inovatif,
+                    strategis, dan berorientasi hasil, menggabungkan kreativitas, seni, dan desain
+                    dengan teknologi informasi.
+                </p>
+
+                <img src="https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg" alt="team">
+            </div>
+
+            <!-- RIGHT CONTENT -->
+            <div class="profile-right">
+
+                <div class="value-card">
+                    <h3>Client-First Mindset</h3>
+                    <p>Mengutamakan kebutuhan klien dalam setiap solusi.</p>
+                </div>
+
+                <div class="value-card">
+                    <h3>Innovate the Industry</h3>
+                    <p>Menghadirkan inovasi yang relevan dan berdampak.</p>
+                </div>
+
+                <div class="value-card">
+                    <h3>Keep Getting Better</h3>
+                    <p>Terus belajar dan berkembang.</p>
+                </div>
+
+                <div class="value-card">
+                    <h3>Be the Best Team</h3>
+                    <p>Membangun tim yang solid dan profesional.</p>
+                </div>
+
+                <div class="value-card">
+                    <h3>Ethics Beyond Reproach</h3>
+                    <p>Menjunjung tinggi kejujuran dan integritas.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MESSAGE US -->
+    <section id="message" class="message-us">
+
+        <h2 class="section-title">Message Us</h2>
+        <p class="section-subtitle">Kirim pesan Anda dan kami akan segera membalasnya.</p>
+
+        <div class="message-wrapper">
+
+            <!-- FORM CARD -->
+            <div class="message-card">
+                <h3>Send Message</h3>
+
+                <form id="messageForm">
+
+                    <label>Nama</label>
+                    <input type="text" id="name" placeholder="Masukkan nama" required>
+
+                    <label>Tanggal Lahir</label>
+                    <input type="date" id="birthdate" required>
+
+                    <label>Jenis Kelamin</label>
+                    <div class="gender">
+                        <label>
+                            <input type="radio" name="gender" value="Laki-laki" required>
+                            Laki-laki
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="Perempuan">
+                            Perempuan
+                        </label>
+                    </div>
+
+                    <label>Pesan</label>
+                    <textarea id="messageText" placeholder="Tulis pesan..." required></textarea>
+
+                    <button type="submit">Kirim Pesan</button>
+
+                </form>
+            </div>
+
+            <!-- RESULT CARD -->
+            <div class="message-card">
+                <h3>Your Message</h3>
+
+                <p id="resultName">Nama:</p>
+                <p id="resultBirth">Tanggal Lahir:</p>
+                <p id="resultGender">Jenis Kelamin:</p>
+                <p id="resultMessage">Pesan:</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <script src="js/script.js"></script>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p>© 2026 Fractech. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
